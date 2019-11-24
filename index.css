@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: auto;
+  padding: 0 1em;
+  max-width: 1000px;
+  background-color: lightgray;
+}
+
+.banner {
+  margin-top: 50px;
+  background-image: url(img/temp_banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+
+.card {
+  box-sizing: border-box;
+  margin: 1rem .25em;
+}
+
+.category {
+  flex: 1 1 500px;
+}
+
+.display-4,
+.card-header {
+  font-family: 'Calistoga', cursive;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li a:hover, a:visited {
+  color: inherit;
+}
+
+.card-header {
+  background-color: darkgreen;
+  color: white;
+}
+
+@media screen and (min-width: 40em) {
+  .card {
+    max-width: calc(50% -  1em);
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .card {
+    max-width: calc(25% - 1em);
+  }
+}
