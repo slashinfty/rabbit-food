@@ -29,3 +29,12 @@
   width: 95%;
   max-width: 700px;
 }
+
+.display-4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.display-4 a:hover {
+  text-decoration: underline;
+}
