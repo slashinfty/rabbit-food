@@ -38,3 +38,7 @@
 .display-4 a:hover {
   text-decoration: underline;
 }
+
+.btn-align {
+  text-align: right;
+}
