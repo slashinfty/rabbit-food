@@ -25,9 +25,9 @@
   </div>
   <div class="centered">
     <!-- Input recipe name here -->
-    <h1 class="display-4">Example Recipe</h1>
-    <!-- Image src should be /img/YOUR PICTURE FILE NAME -->
-    <img class="main-img" src="img/temp_recipe.jpg">
+    <h1 class="display-4">TODO</h1>
+    <!-- Image src should be img/YOUR PICTURE FILE NAME -->
+    <img class="main-img" src="TODO">
   </div>
   <div class="description">
     <!-- Text description - each paragraph should be in it's own p tags -->
@@ -37,22 +37,26 @@
     
     <article class="card recipe" id="recipe-card">
       <!-- Put name of recipe here - should match the header -->
-      <div class="card-header">Name of Recipe</div>
+      <div class="card-header">TODO</div>
       <div class="card-body">
         <h5 class="card-title">Ingredients:</h5>
         <ul>
           <!-- List of ingredients, each in it's own li -->
-          <li>1 ingredient</li>
-          <li>2 ingredients</li>
+          <li>TODO</li>
+          <li>TODO</li>
         </ul>
         <h5 class="card-title">Directions:</h5>
         <ol>
           <!-- List of directions, each in it's own li -->
-          <li>First step</li>
-          <li>Second step</li>
+          <li>TODO</li>
+          <li>TODO</li>
         </ol>
-        <!-- File name TODO -->
-        <div class="btn-align"><button type="button" class="btn btn-success">Download Recipe</button></div>
+				<div class="btn-align">
+					<!-- Add file name to both buttons files/YOUR FILE NAME -->
+		  		<a href="TODO" download><button type="button" class="btn btn-success">Download</button></a>
+		  		&nbsp;
+		  		<a href="javascript: w=window.open('TODO'); w.print();"><button type="button" class="btn btn-success">Print</button></a>
+				</div>
       </div>
     </article>
   </div>
