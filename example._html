@@ -53,9 +53,9 @@
         </ol>
 				<div class="btn-align">
 					<!-- Add file name to both buttons files/YOUR FILE NAME -->
-		  		<a href="TODO" download><button type="button" class="btn btn-success">Download</button></a>
-		  		&nbsp;
-		  		<a href="javascript: w=window.open('TODO'); w.print();"><button type="button" class="btn btn-success">Print</button></a>
+					<a href="TODO" download><button type="button" class="btn btn-success">Download</button></a>
+					&nbsp;
+					<a href="javascript: w=window.open('TODO'); w.print();"><button type="button" class="btn btn-success">Print</button></a>
 				</div>
       </div>
     </article>
