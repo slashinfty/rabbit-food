@@ -14,9 +14,10 @@ body {
   background-image: url(img/temp_banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   position: relative;
-  color: white;
+  color: black;
+  min-height: 300px;
 }
 
 .cards {
