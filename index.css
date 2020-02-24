@@ -10,14 +10,19 @@ body {
 }
 
 .banner {
-  margin-top: 50px;
-  background-image: url(img/temp_banner.jpg);
+  margin-top: 30px;
+  background-image: url(img/header.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   position: relative;
   color: black;
   min-height: 300px;
+}
+
+.header-text {
+  max-height: 170px;
+  max-width: 90%;
 }
 
 .cards {
