@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Change to name of recipe -->
+  <title>Sticky Udon Noodles</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Calistoga|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="recipe.css">
+  
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="jumbotron banner">
+    <a href="index.html"><img class="header-text" src="img/header_text.png"></a>
+  </div>
+  <div class="centered">
+    <!-- Input recipe name here -->
+    <h1 class="display-4">Sticky Udon Noodles</h1>
+    <!-- Image src should be img/YOUR PICTURE FILE NAME -->
+    <img class="main-img" src="img/sticky-udon-noodles.jpg">
+  </div>
+  <div class="description">
+    <!-- Text description - each paragraph should be in it's own p tags -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque ut massa id gravida. Vestibulum pretium mattis orci nec posuere. Nullam auctor efficitur massa, ut ultricies arcu egestas eu. Phasellus vehicula consectetur viverra. Phasellus condimentum nibh risus. Suspendisse tortor felis, euismod id lectus in, blandit pretium dui. Sed nisl metus, efficitur aliquet tempus vitae, commodo sed elit. Phasellus elit massa, congue vel ex in, interdum iaculis dolor. Mauris maximus consectetur sodales. Nunc eget aliquet leo.</p>
+    
+    <p>Curabitur nec enim vulputate neque euismod efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean ultricies vehicula mollis. Integer ut blandit urna. Donec a metus bibendum, dapibus enim eget, mollis purus. Nam id vehicula mauris, eget egestas lacus. Nunc iaculis tellus quis ante porttitor, sollicitudin volutpat magna iaculis. Nam nec molestie massa, a semper risus. Sed feugiat, sem aliquet accumsan ultricies, turpis dui tincidunt augue, non dapibus ex orci sed neque. Quisque fermentum mauris at laoreet convallis. Aenean volutpat metus vel metus mollis, a fringilla nulla pharetra. Donec commodo, neque non dignissim luctus, urna nisl placerat purus, nec auctor nibh turpis in ante.</p>
+    
+    <article class="card recipe" id="recipe-card">
+      <!-- Put name of recipe here - should match the header -->
+      <div class="card-header">Sticky Udon Noodles</div>
+      <div class="card-body">
+        <h5 class="card-title">Ingredients:</h5>
+        <ul>
+          <!-- List of ingredients, each in it's own li -->
+          <li>30 oz fresh udon noodles</li>
+          <li>2 cups broccolini tops</li>
+          <li>1 1/2 cups shiitake mushrooms, sliced</li>
+          <li>1 cup red onion, sliced</li>
+          <li>1 cup red bell pepper, sliced</li>
+          <li>1/2 cup matchstick carrots</li>
+          <li>2 teas fresh ginger, minced</li>
+          <li>2 garlic cloves, minced</li>
+          <li>1/2 cup low sodium soy sauce</li>
+          <li>1/4 cup hoisin sauce</li>
+          <li>2 tbs mirin</li>
+          <li>2 tbs vegetable oil</li>
+          <li>2-3 teas sambal oelek</li>
+          <li>Chopped green onions (optional, for topping)</li>
+          <li>Mung bean sprouts (optional, for topping)</li>
+          <li>Roasted black sesame seeds (optional, for topping)</li>
+        </ul>
+        <h5 class="card-title">Directions:</h5>
+        <ol>
+          <!-- List of directions, each in it's own li -->
+          <li>Combine soy sauce, hoisin sauce, mirin, sambal oelek, ginger, and garlic in a bowl. Whisk thoroughly and set aside.</li>
+          <li>Cook udon noodles according to package directions. Meanwhile, add vegetable oil to wok or large pan and heat on medium-high for 2 minutes. Add veggies and sauté for 3 minutes.</li>
+          <li>Add 1/3 of soy sauce mixture and sauté an additional 2 minutes. Add noodles to veggies and pour remaining sauce over top. Sauté a minimum of 3 minutes, or until sauce is clinging to food and noodles are sticky.</li>
+        </ol>
+		<div class="btn-align">
+		  <!-- Add file name to both buttons files/YOUR FILE NAME -->
+		  <a href="files/sticky-udon-noodles.pdf" download><button type="button" class="btn btn-success">Download</button></a>
+		  &nbsp;
+		  <a href="javascript: w=window.open('files/sticky-udon-noodles.pdf'); w.print();"><button type="button" class="btn btn-success">Print</button></a>
+		</div>
+      </div>
+    </article>
+  </div>
+</body>
