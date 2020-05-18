@@ -63,6 +63,12 @@ li a:hover, a:visited {
   height: 1.4em;
   padding-left: 0.1em;
   padding-bottom: 0.22em;
+  float: none;
+}
+
+.nowrap {
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .legend {
