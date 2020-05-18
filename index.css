@@ -54,6 +54,14 @@ li a:hover, a:visited {
   color: inherit;
 }
 
+li a:hover {
+  text-decoration: underline;
+}
+
+li span {
+  text-decoration: inherit;
+}
+
 .card-header {
   background-color: darkgreen;
   color: white;
