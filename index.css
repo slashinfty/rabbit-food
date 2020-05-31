@@ -10,7 +10,9 @@ body {
 }
 
 .banner {
-  margin-top: 30px;
+  padding-top: 10px;
+  padding-left: 0px;
+  margin-top: 20px;
   background-image: url(img/header.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -63,7 +65,7 @@ li span {
 }
 
 .card-header {
-  background-color: darkgreen;
+  background-color: #3b7250;
   color: white;
 }
 
