@@ -15,6 +15,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </head>
 <body>
   <div class="jumbotron banner">
@@ -22,7 +23,7 @@
   </div>
   <!-- <span class="nowrap">LASTWORD -->
   <!-- <img class="vegan" src="https://img.icons8.com/cotton/64/000000/big-carrot---v1.png"></span> -->
-	<div class="legend">Vegan recipes indicated with<img class="vegan" src="https://img.icons8.com/cotton/64/000000/big-carrot---v1.png"></div>
+	<div class="legend">Vegan recipes indicated with<img class="vegan" src="https://img.icons8.com/cotton/64/000000/big-carrot---v1.png"><br><button onclick="toggleVegan()">Toggle Vegan Only</button></div>
   <section class="cards">
     <article class="card category">
       <div class="card-header">Appetizers</div>
@@ -32,7 +33,7 @@
     <article class="card category">
       <div class="card-header">Soups</div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item"><a href="creamy-gnocchi-soup.html">Creamy Gnocchi Soup</a></li>
+        <li class="list-group-item not-vegan"><a href="creamy-gnocchi-soup.html">Creamy Gnocchi Soup</a></li>
         <li class="list-group-item"><a href="feel-better-noodle-soup.html">Feel Better Noodle <span class="nowrap">Soup<img class="vegan" src="https://img.icons8.com/cotton/64/000000/big-carrot---v1.png"></span></a></li>
         <li class="list-group-item"><a href="healthy-miso-soup.html">Healthy Miso <span class="nowrap">Soup<img class="vegan" src="https://img.icons8.com/cotton/64/000000/big-carrot---v1.png"></span></a></li>
         <li class="list-group-item"><a href="minestrone.html"><span class="nowrap">Minestrone<img class="vegan" src="https://img.icons8.com/cotton/64/000000/big-carrot---v1.png"></span></a></li>
@@ -41,7 +42,7 @@
     <article class="card category">
       <div class="card-header">Salads</div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item"><a href="egg-salad.html">Egg Salad</a></li>
+        <li class="list-group-item not-vegan"><a href="egg-salad.html">Egg Salad</a></li>
         <li class="list-group-item"><a href="rainbow-chili-farfalle.html">Rainbow Chili <span class="nowrap">Farfalle<img class="vegan" src="https://img.icons8.com/cotton/64/000000/big-carrot---v1.png"></span></a></li>
       </ul>
     </article>
@@ -55,8 +56,8 @@
       <ul class="list-group list-group-flush">
         <li class="list-group-item"><a href="moroccan-veggies.html">Moroccan <span class="nowrap">Veggies<img class="vegan" src="https://img.icons8.com/cotton/64/000000/big-carrot---v1.png"></span></a></li>
         <li class="list-group-item"><a href="sticky-udon-noodles.html">Sticky Udon <span class="nowrap">Noodles<img class="vegan" src="https://img.icons8.com/cotton/64/000000/big-carrot---v1.png"></span></a></li>
-        <li class="list-group-item"><a href="sweet-chili-fried-rice.html">Sweet Chili Fried Rice</a></li>
-        <li class="list-group-item"><a href="three-cheese-rigatoni.html">Three Cheese Rigatoni</a></li>
+        <li class="list-group-item not-vegan"><a href="sweet-chili-fried-rice.html">Sweet Chili Fried Rice</a></li>
+        <li class="list-group-item not-vegan"><a href="three-cheese-rigatoni.html">Three Cheese Rigatoni</a></li>
       </ul>
     </article>
     <article class="card category">
@@ -75,7 +76,7 @@
     <article class="card category">
       <div class="card-header">Desserts</div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item"><a href="triple-ginger-cookies.html">Triple Ginger Cookies</a></li>
+        <li class="list-group-item not-vegan"><a href="triple-ginger-cookies.html">Triple Ginger Cookies</a></li>
       </ul>
     </article>
     <article class="card category">
